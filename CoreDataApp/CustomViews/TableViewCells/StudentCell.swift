@@ -9,16 +9,14 @@
 import UIKit
 
 class StudentCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+  
+  
+  @IBOutlet weak var txtName: UILabel!
+  @IBOutlet weak var txtAge: UILabel!
+  
+  @IBAction func btnDelete(_ sender: UIButton) {
+  }
+  @IBAction func btnEdit(_ sender: UIButton) {
+  }
+  
 }
