@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DA49BD221E5020D005A15BF /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA49BD121E5020D005A15BF /* Functions.swift */; };
 		8DA4F9AF21DFEBD100A49DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F9AE21DFEBD100A49DEA /* AppDelegate.swift */; };
 		8DA4F9B121DFEBD100A49DEA /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F9B021DFEBD100A49DEA /* StudentViewController.swift */; };
 		8DA4F9B721DFEBD100A49DEA /* CoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4F9B521DFEBD100A49DEA /* CoreDataApp.xcdatamodeld */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DA49BD121E5020D005A15BF /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		8DA4F9AB21DFEBD100A49DEA /* CoreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA4F9AE21DFEBD100A49DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA4F9B021DFEBD100A49DEA /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DA49BD021E4FFDD005A15BF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8DA49BD121E5020D005A15BF /* Functions.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		8DA4F9A221DFEBD100A49DEA = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		8DA4F9AD21DFEBD100A49DEA /* CoreDataApp */ = {
 			isa = PBXGroup;
 			children = (
+				8DA49BD021E4FFDD005A15BF /* Presenter */,
 				8DA7196721E399B200C8CE3F /* Model */,
 				8DA7196621E399A300C8CE3F /* ViewControllers */,
 				8DA7196221E3986B00C8CE3F /* CustomViews */,
@@ -198,6 +209,7 @@
 				8DA7195621E3942900C8CE3F /* Student+CoreDataProperties.swift in Sources */,
 				8DA4F9B121DFEBD100A49DEA /* StudentViewController.swift in Sources */,
 				8DA4F9B721DFEBD100A49DEA /* CoreDataApp.xcdatamodeld in Sources */,
+				8DA49BD221E5020D005A15BF /* Functions.swift in Sources */,
 				8DA7196521E3996500C8CE3F /* StudentCell.swift in Sources */,
 				8DA4F9AF21DFEBD100A49DEA /* AppDelegate.swift in Sources */,
 				8DA7195521E3942900C8CE3F /* Student+CoreDataClass.swift in Sources */,
